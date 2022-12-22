@@ -1,12 +1,11 @@
 package ru.akhmetov.springcourse.FirstRestApp.models;
 
-import jakarta.persistence.Id;
 
 /**
  * @author Oleg Akhmetov on 20.12.2022
  */
 public class Change {
-    @Id
+
     private int id;
 
     private int add;
